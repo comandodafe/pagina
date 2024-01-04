@@ -1,0 +1,121 @@
+/*---Cabeçalho---*/
+.cabecalho{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    padding-bottom: 0;
+  }
+  nav input{display: none;}
+  /*---Cabeçalho - Poster---*/
+  .cabecalho .poster{
+    width: 48%;
+    height: 100%;
+    margin: 0;
+  }
+
+  /*---POSTER DE CAPA---*/
+  .cabecalho .poster img{
+    width: 80%;
+    margin: 0;
+  }
+  .cabecalho .CRight .recuo{
+    width: 82%;
+    margin:40px auto 0 auto;
+    display: block;
+  }
+  .cabecalho .CRight .recuo img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .cabecalho .CRight .sombra{
+    margin-top: -.8%;
+    width: 90%;
+  }
+  .cabecalho .poster .arte{
+    width: 45%;
+    font-size: 22px;
+    padding: 2px 5px;
+    position: relative;
+    top: -10px;
+    left: 12%;
+    border-radius: 3%;
+    color: white;
+    font-weight: bold;
+    letter-spacing:0.1em;
+    font-family: lemon;
+    text-align: center;
+    text-shadow: 0 .1em .1em black;
+    background: rgba(255, 255, 255, .3);
+  }
+
+  /*---cabecalho CRight---*/
+  .cabecalho .CRight{
+    width: 48%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  /*---cabecalho CRight Rede Social---*/
+  .cabecalho .CRight .iconify{
+    color: white;
+    margin: 0 10px;
+    font-size: 40px;
+    text-shadow: 0em 0.15em 0.2em black;
+  }
+  .cabecalho .CRight a:hover{
+    opacity: 0.7;
+  }
+
+  /*---cabecalho CRight Decoração---*/
+  .cabecalho .CRight .closs{
+    position: absolute;
+    z-index: -1;
+    width: 30%;
+    top:50px;
+    right:20px;
+  }
+
+  /*---cabecalho CRight Linha---*/
+  .cabecalho .linha{
+    position: relative;
+    margin: 0 auto;
+    width:90%;
+  }
+  
+  @media (max-width:900px){
+    .cabecalho .poster{
+      width: 100%;
+      height: 0;
+    }
+    .cabecalho .poster img{
+      width: 100% !important;
+      position: relative;
+      margin: 0 auto;
+    }
+    .cabecalho .poster .arte{
+      width: 80%;
+      position: relative;
+      margin: 0 auto;
+      top: -10px;
+      left:0;
+      height: 3% 0;
+    }
+    .cabecalho .CRight{
+      width: 100%;
+    }
+    .cabecalho .linha{
+      position: relative;
+      width:95%;
+    }
+    .cabecalho .CRight .recuo{
+      display: none;
+    }
+    .cabecalho .CRight .sombra{
+      display: none;
+    }
+  }

@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    height: 100vh;
+    padding-bottom: 10%;
+    background-image: linear-gradient(to right, rgb(0, 98, 255), rgba(190, 49, 49, 0.8));
+}
+  a {
+    color: #060ae2;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  a:hover {
+    opacity: 0.8;
+  }
+
+  /*---Menu---*/
+  @font-face {
+    font-family: "ubuntu";
+    font-style: italic;
+    font-weight: 300;
+    src: local("Lato Light Italic"), local("Lato-LightItalic"), url(https://fonts.gstatic.com/s/ubuntucondensed/v8/u-4k0rCzjgs5J7oXnJcM_0kACGMtT-Dfqw.woff2) format("woff2");
+  }
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    height: 8vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+  .logo{margin-right: 5%;}
+  nav .logo div span{
+    font-size: 12px;
+    float:right;
+    font-weight: bold !important;
+    letter-spacing:0.1em !important;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  nav .logo{
+    width:270px;
+    font-size: 17px;
+    letter-spacing:0.1em;
+    position: relative;
+    font-family: lemon;
+    line-height: .98em;
+    display: flex;
+    font-weight: bold;
+    color: #fff;
+    align-items: center;
+    background: linear-gradient(to right, rgb(255, 181, 181) 15%, rgb(118, 212, 255) 45%, rgb(255, 255, 255) 55%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+  }
+  nav .logo .anime{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width:40px;
+    margin-right: 5px;
+  }
+    .anulado{
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+    }
+  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+  nav ul{
+    width:380px;
+    border-bottom: 0px solid #ccc;
+  }
+  nav ul li a{
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+  nav ul li a:hover{
+    text-decoration: underline;
+  }
+  .nav-list {
+    list-style: none;
+    text-align: right !important;
+  }
+  .nav-list li {
+    display: inline-block;
+    letter-spacing: 2px;
+    margin-left: 20px;
+  }
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+  }
+  .nav-list.active {
+    transform: translateX(0);
+  }
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
+  .fa-heart{
+    color: #fff;
+    font-size: 30px;
+    margin-right: 5px;
+  }
+  .fechamento{
+    font-size:27.5px;
+    color:#ffffff;
+    position:relative;
+    top:-45px;
+    right:-40px;
+    padding:2px 7px;
+    border-radius: 8%;
+    background-color: rgb(0, 0, 0, .5);
+  }
+  .fechamento:hover{
+    border-radius: 50%;;
+    background-color: #fff;
+    color: #801111;}
+  /* Relorio
+----------------------------------------------- */
+#clackg{margin:62% 0 0 -5px;font-size:13px;font-weight:bold;}
+#clock_tm{color:#ffffff;}
+#clock_dt{color:#ccd;}
+#contato{
+  width:100%;
+  display: none;
+  padding:0;
+  margin-bottom: 1%;
+  background: rgba(255, 255, 255, .1);
+}
+.pics{
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+.pics .contpics{
+  color:#fff;
+  margin-left: -30px;
+  padding:2% 0 1% 0;
+  font-family: lemon;
+}
+.pics .pecss{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 2%;
+}
+.pics .pecss div:nth-child(1),
+.pics .pecss div:nth-child(2),
+.pics .pecss div:nth-child(2){
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.pics .pecss a:nth-child(1){
+  width: 10.5%;
+  margin:0 5%;
+  color: #fff;
+  padding: .1% 0;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.25), 0 4px 4px rgba(0,0,0,0.25);
+  background: rgba(255, 255, 255, .1);
+}
+.pics .pecss div a{display: flex;flex-wrap: wrap;align-items: center;}
+.pics .pecss a:nth-child(2){
+  width: 10.5%;
+  margin:0 5%;
+  color: #fff;
+  padding: .3% 0;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.25), 0 4px 4px rgba(0,0,0,0.25);
+  background: rgba(255, 255, 255, .1);
+}
+.pics .pecss a:nth-child(3){
+  width: 10.5%;
+  margin:0 5%;
+  color: #fff;
+  padding: .1% 0;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.25), 0 4px 4px rgba(0,0,0,0.25);
+  background: rgba(255, 255, 255, .1);
+}
+.pics .pecss div a{color: #ffffff;}
+.whatsicon{
+  font-size: 26px !important;
+  margin-right: 1%;
+}
+.telegramico{
+  font-size: 26px !important;
+  color: #ffffff;
+}
+.emicon{
+  font-size: 26px !important;
+  margin-right: 1%;
+}
+.mag{
+  cursor:pointer;
+}
+
+  /*---MOBILLE---*/
+  @media (max-width: 900px) {
+    body {
+      overflow-x: hidden;
+    }
+    #woculta{display:none !important}
+    .pics .pecss a:nth-child(1),
+    .pics .pecss a:nth-child(3){box-shadow: 0 0 0;background: transparent;}
+    .pics .pecss a:nth-child(2){box-shadow: 0 0 0;background: transparent;margin-left: 7%;}
+    nav{
+      position: relative;
+      z-index: 11;
+    }
+  .nav-list {
+      position: absolute;
+      z-index: 1;
+      top: 8vh;
+      right: 0;
+      width: 60%;
+      height: 92vh;
+      background-color:rgba(190, 49, 49, 0.8);
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in;
+    }
+    .nav-list li {
+      width: 100%;
+      position:relative !important;
+      margin:0 auto;
+      padding:2% 0;
+      text-align:center;
+      left:0 !important;
+      opacity: 0;
+      border-bottom:1px solid #999;
+      background-color:rgba(190, 49, 49, 0.8);
+    }
+  .mobile-menu {
+      display: block;
+    }
+    nav .logo div{
+      display:none;
+    }
+    nav .logo{
+      width: 80%;
+      margin-right:0;
+    }
+    nav .logo .anime{
+      display:inline;
+      padding: 0;
+      margin-left: 2%;
+    }
+    .logo-time{display: none;}
+    .fechamento{
+      position:relative;
+      top:-25px;
+      right:-20px;
+      padding: 1% 2%;
+    }
+    .fa-xmark{font-size: 1em;}
+}
+

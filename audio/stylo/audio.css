@@ -1,0 +1,13 @@
+body {
+  height: 100vh;
+  padding-bottom:0;
+}
+.container-footer{
+  display: none !important;
+}
+
+@media (max-width:900px){
+  .cabecalho .CRight{
+    width: 100%;
+  }
+}

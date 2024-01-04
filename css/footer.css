@@ -1,0 +1,116 @@
+.footer{
+    position: relative;
+    background: rgb(255, 255, 255, .2);
+  }
+  .footer .cop{
+    width: 100%;
+    font-size:12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    letter-spacing:0.05em;
+    color: #2d2a2a;
+    background: rgb(255, 255, 255, .3);
+  }
+  .container-footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer .column-footer{
+    width: 377px;
+    height: 200px;
+    bottom: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .footer .column-publicit{
+    width: 377px;
+    height: 300px;
+    position: relative;
+    margin-top: -110px;
+    text-align: right;
+    bottom: 0;
+    padding: 0;
+
+  }
+  .footer .column-footer ul{
+    justify-self: left;
+    text-align: left;
+  }
+  .footer .column-footer ul li{
+    width: 100%;
+    list-style: none;
+  }
+  .footer .column-footer ul li a{
+    color: #fff;
+    font-size: 18px;
+  }
+  .footer .column-footer .publicit{
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .footer .column-footer .public{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  .fa-phone{
+    color: #80d8fe;
+    font-size: 20px;
+    margin: 3px 5px;
+  }
+  .fa-whatsapp{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0px;
+    margin: 3px 5px;
+    border-radius: 50%;
+    background: #63ed78;
+  }
+  .fa-envelope{
+    color: #fbe753;
+    font-size: 20px;
+    margin: 3px 5px;
+  }
+  .fa-instagram, .fa-twitter, .fa-youtube, .fa-facebook{
+    color: #fff;
+    font-size: 35px;
+    margin: 3px 7px;
+  }
+  .footer .column-footer .credito{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    text-align: left;
+    color: #fff;
+  }
+  .footer .column-footer .credito img{
+    display:flex;
+    width:22%;
+  }
+  .footer .column-footer .credito a{color: #e2e1a7;}
+
+  @media (max-width:900px){
+    .footer{
+      width: 100%;
+    }
+    .footer .container-footer, .column-footer{
+      width: 100% !important;
+    }
+    .footer .column-footer{
+      height: 15vh;
+      margin: 0;
+    }
+    .column-social{
+      margin-top: -15%;
+      height: 15vh;
+    }
+  }

@@ -1,0 +1,49 @@
+/*----Paginação----*/
+.paginacao{
+     display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-bottom:40px;
+  }
+  .paginacao div{
+    width: 100%;
+    display: flex;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .paginacao div a{
+    position: relative;
+    margin: 0 auto;
+  }
+  .paginacao a{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+  }
+  .paginacao span{
+    color: #fff;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  .paginacao .centro{
+      color: black;
+      width: 60px;
+      border-radius: 5px;
+      padding: 2px 5px;
+      font-size: 20px;
+      font-weight: bold;
+      background: white;
+  }
+  
+  /*----Botão Próximo x Anterior----*/
+  .fa-circle-chevron-left, .fa-circle-chevron-right, .fa-house{
+  font-size: 30px;
+  color: white;
+  margin: 0 17px;
+  }

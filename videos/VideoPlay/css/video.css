@@ -15,19 +15,18 @@ iframe{
     box-shadow: 0em 0.15em 0.2em black;
 }
 .TitulodoVideo{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    color: #fff;
-    font-size: 1em;
-    width: 100%;
+    color: #fefefe;
+    font-size: 1.1em;
+    line-height: 1.05em;
+    width: 100vw;
     height: 10vh;
-    margin-top:0;
     padding: 0 15px 0 15px;
-    text-align: left !important;
-    background:rgba(0, 0, 0, .5)
+    display: flex;
+    align-items: center;
+    background:rgba(0, 0, 0, .5);
 }
 .TitulodoVideo div{
+    text-align: left;
     margin-left:-10px;
 }
 

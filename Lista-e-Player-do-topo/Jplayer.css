@@ -103,7 +103,6 @@
     padding-bottom: 10px;
     background-color: rgba(255, 255, 255, .2);
   }
-.Jplayer .Qg .ListE .ListTop div:nth-child(2){font-size:15px;}
   .Jplayer .Qg .ListE .ListTop div tema{
     text-align: center;
     font-weight: bold;
@@ -119,6 +118,7 @@
       align-items: center;
       margin: 4px 5px 5px 5px;
       }
+.Jplayer .Qg .ListE .ListTop div:nth-child(3){font-size:15px;}
   .Jplayer .Qg .ListE .ListTop2{
     display: flex;
     flex-wrap: wrap;

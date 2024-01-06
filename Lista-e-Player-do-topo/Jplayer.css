@@ -111,11 +111,12 @@
     background-color: rgba(34, 34, 34, .2);
   }
   .Jplayer .Qg .ListE .ListTop .definido{
-    width: 100%;
-    display:block;
-    align-items: center;
-    margin: 4px 5px 5px 5px;
-  }
+      width: 100%;
+      display:block;
+      font-size:13px;
+      align-items: center;
+      margin: 4px 5px 5px 5px;
+      }
   .Jplayer .Qg .ListE .ListTop2{
     display: flex;
     flex-wrap: wrap;

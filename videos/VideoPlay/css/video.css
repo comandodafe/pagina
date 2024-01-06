@@ -24,8 +24,7 @@ iframe{
     padding: 0 15px 0 15px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: left;
+    text-align: left !important;
     background:rgba(0, 0, 0, .5)
 }
 .TitulodoVideo div{

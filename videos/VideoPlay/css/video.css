@@ -15,7 +15,7 @@ iframe{
     box-shadow: 0em 0.15em 0.2em black;
 }
 .TitulodoVideo{
-    display: block;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     color: #fff;

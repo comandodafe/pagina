@@ -113,7 +113,8 @@
   .Jplayer .Qg .ListE .ListTop .definido{
       width: 100%;
       display:block;
-      font-size:15px;
+      font-size:16px;
+      font-family:Times New Roman;
       align-items: center;
       margin: 4px 5px 5px 5px;
       }

@@ -118,7 +118,6 @@
       align-items: center;
       margin: 4px 5px 5px 5px;
       }
-.Jplayer .Qg .ListE .ListTop div:nth-child(3){font-size:15px;}
   .Jplayer .Qg .ListE .ListTop2{
     display: flex;
     flex-wrap: wrap;
@@ -314,7 +313,7 @@
   #Mestico,
   #Culto{
     color:rgb(255, 255, 255);
-    font-size:14px;
+    font-size:15px;
     font-weight:bold;
   }
   .bord{

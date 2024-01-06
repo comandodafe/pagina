@@ -18,7 +18,7 @@ iframe{
     color: #fefefe;
     font-size: 1.1em;
     line-height: 1.05em;
-    width: 100%;
+    width: 100vw;
     height: 10vh;
     margin-top: -3.8px;
     padding: 0 15px 0 15px;
@@ -27,6 +27,9 @@ iframe{
     justify-content: center;
     text-align: left;
     background:rgba(0, 0, 0, .5)
+}
+.TitulodoVideo div{
+    margin-left:-5px;
 }
 
 @media (max-width:360px){

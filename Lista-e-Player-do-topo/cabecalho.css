@@ -4,13 +4,6 @@
 }
 body{
   overflow:hidden;
-  position:fixed;
-  width:100vw;
-  height:100vh;
-  top:0;
-  left:0;
-  right:0;
-  margin:auto;
   background-image: linear-gradient(to right, rgb(0, 61, 159), rgba(159, 36, 36, 0.8)); 
 }
 a{text-decoration: none;}

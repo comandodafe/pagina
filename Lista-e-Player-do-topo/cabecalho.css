@@ -3,6 +3,8 @@
   padding: 0;
 }
 body{
+  overflow:hidden;
+  position:fixed;
   background-image: linear-gradient(to right, rgb(0, 61, 159), rgba(159, 36, 36, 0.8)); 
 }
 a{text-decoration: none;}

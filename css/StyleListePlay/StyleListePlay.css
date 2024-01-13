@@ -1,0 +1,235 @@
+  .container .Jplay{
+    width:62%;
+    text-align:left;
+    color:#fff;
+  }
+  .container .Jplay .Jplay-2{
+    width:100%;
+    padding-bottom:69.3%;
+    position:relative;
+  }
+  .container .Jplay .Jplay-2 iframe{
+    position:absolute;
+    left:0;
+    width:100%;
+    height:100%;
+  }
+  .container .Jplay .discurso{
+    margin:1% 0 0 0;
+    padding:15px 10px;
+    background-color:rgba(255, 255, 255, .7);
+  }
+  .container .Jplay .discurso .addthis_inline_share_toolbox_vakd{
+    justify-content: center;
+    display: flex;
+  }
+  .container .Lista{
+    width:33%;
+  }
+  .container .Lista .MenuList{
+    padding:2.5% 0;
+    font-size:18px;
+    letter-spacing: .1em;
+    text-align:left;
+    margin: 0 0 1% 2%;
+    padding-left:3%;
+    display:block;
+    background-color:rgba(34, 34, 34, .6);
+  }
+  .container .Lista .MenuList span{
+    float:right;
+    margin-right:10px;
+  }
+  .container .Lista .Jlist{
+    position:relative;
+    box-sizing: border-box;
+    margin: 0 0 1% 2%;
+    padding-bottom:23.65%;
+    background-color:rgba(255, 255, 255, .1);
+  }
+  .container .Lista .Jlist a{
+    position:absolute;
+    left:0;
+    color:#fff;
+    width:100%;
+    height:100%;
+  }
+  .container .Lista .Jlist a:hover{
+    background:rgba(34, 34, 34, .2);
+  }
+  .container .Lista .Jlist h2{
+    margin:0;
+    padding:.2% .5%;
+    font-size:14px;
+  }
+  .container .Lista .Jlist Jpr{
+    margin-top:1%;
+    font-size:12px;
+  }
+  .container .Lista .Jlist div{
+    font-size:12px;
+  }
+  .container .Lista .Jlist data{
+    font-size:12px;
+    font-weight:bold;
+    position:absolute;
+    margin-top:2%;
+  }
+  .container .Lista .Jlist num{
+    font-size:12px;
+    font-weight:bold;
+    position:absolute;
+    left:0;
+    top:0;
+    padding:.5% 2%;
+    background:rgba(34, 34, 34, .8);
+  }
+  .container .Lista .Jlist tempo{
+    font-size:12px;
+    font-weight:bold;
+    position:absolute;
+    right:57%;
+    bottom:0;
+    padding:.5% 2%;
+    background:rgba(34, 34, 34, .8);
+  }
+  .container .Lista .Jlist img {
+    width:43%;
+    float:left;
+    margin-right:1%;
+  }
+  .container .Lista .tablink {
+    padding:1% 2%;
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top:10px;
+    font-family:Cambria;
+    font-size:0.95em;
+    background-color: rgba(255,255,255,0.1);
+  }
+  .container .Lista .tablink:hover {
+    background-color: rgba(1, 34, 164, 0.53);
+  }
+  .container .Lista .tabcontent {
+    color: white;
+    display: none;
+  }
+  .container .Lista .MenuList{font-size:.8em !important}
+  .container .Lista .Jlist .ativo{display:none;}
+  
+  /*ACTIVE*/
+  .container .Lista .Jlist.active{
+    position:relative;
+    box-sizing: border-box;
+    margin: 0 0 1% 2%;
+    padding-bottom:23.65%;
+    background-color:rgba(34, 34, 34, .3);
+  }
+  .container .Lista .Jlist.active num{display:none;}
+  .container .Lista .Jlist.active tempo{display:none;}
+  .container .Lista .Jlist.active .ativo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:43%;
+    height:100%;
+    position:absolute;
+    left:0;
+    z-index:2;
+    color:rgb(255, 255, 255);
+    background:rgba(190, 49, 49, 0.6);
+  }
+  .container .Lista .Jlist.active .clicado{
+    width:7%;
+    position:absolute;
+    top:25%;
+    left:0;
+    right:0;
+    margin:auto;
+  }
+  .container .Lista .Jlist.active .ativo div{
+    position:absolute;
+    width:100%;
+    left:0;
+    right:0;
+    font-size:18px;
+    text-align:center;
+    font-weight:bold;
+    letter-spacing:.3em;
+  }
+
+
+/*--Menu--*/
+.dropbtn {
+  background-color: Transparent;
+  color: white;
+  padding: 7px 8px;
+  margin:-7px 0 0 0;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  top:0;
+  margin:0;
+  padding:0;
+  float:right;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  text-align:center;
+  background-color: #f9f9f9;  
+  right:0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 5px 12px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #222;color:#fff;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/*---mobilçle---*/
+  @media (max-width:900px){
+    .container{display:block !important;margin:12% 0 0 0 !important;}
+    .container .Jplay{width:100%}
+    .container .Jplay .Jplay-2{width:100%;padding-bottom:77% !important;margin-bottom:2%;}
+    .container .Jplay .Jplay-2 iframe{position:absolute;width:100%;height:100%;}
+    .container .Lista{width:100%;margin:0 0 0 -1% !important;padding:0 !important;}
+    .container .Lista .Jlist tempo{position:absolute;right:57.2%;}
+    .container .Lista .Jlist img {width:42.8% !important;}
+    .container .Jplay .discurso{display:none}
+    .container .Lista .Jlist.active .ativo div{font-size:1.2em !important;position:absolute;padding:24% 0;}
+    #preloader .inner img{
+      width:100% !important;
+      position:relative;
+      left:-15% !important;
+    }
+    #preloader .inner {
+    position: absolute;
+    top: 50%;
+    left: 55% !important;
+}
+  }
+  @media only screen and (max-width:900px){
+    .container .Lista .Jlist h2{font-size: calc(12px + 6 * ((100vw - 320px) / 680));}
+    .container .Lista .Jlist Jpr,
+    .container .Lista .Jlist div,
+    .container .Lista .Jlist data,
+    .container .Lista .Jlist num,
+    .container .Lista .Jlist tempo{font-size: calc(11px + 6 * ((100vw - 320px) / 680));}
+  }
